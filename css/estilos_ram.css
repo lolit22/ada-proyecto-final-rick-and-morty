@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+/* Estilos para una pantalla Full HD de 15.6' pulgadas */
+/* Estilos del "Encabezado de la página" */
+.cont_encabezado{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+    background-color: #1a1616;
+    font-weight: bold;
+    width: 100%;
+    padding: 0.1rem 3rem;
+}
+
+.logos_ram{
+    display: flex;
+    align-items: center;
+}
+
+.menuRedes{
+    display: flex;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 145px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px;
+    margin: 0px 8px;
+    background-color: #333;
+    border-left:6px solid;
+    border-right: 6px solid;
+    border-color: #8cfb5e;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-links li:hover{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #00ff40;
+    color: black;
+}
+.redesSociales{
+    display: flex;
+}
+
+.redesSociales li{
+    display: inline;
+    list-style: none;
+}
+
+.redesSociales li a{
+    font-size: 2.2em;
+    margin:0.2em;
+    transition: 0.5s;
+    color: white;
+}
+
+.redesSociales li a:hover{
+    color: #00ff40;
+}
+
+/*Estilos de la Seccion Principal "Rick & Morty"*/
+.cont_portadaRam{
+    display: flex;
+    min-height: 730px;
+    width: 100%;
+    background: black;
+    background-image: url(../assets/imagenes/imagenMain.jpg);
+    background-size: 66%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cont_ram img{
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+
+.cont_ram h2{
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: flex-end;
+    bottom: 200px;
+}
+
+.cont_ram h2 span{
+    font-size: 45px;
+    justify-content: end;
+}
+
+/* Estilos "Personajes"*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../assets/imagenes/fondo4.png);
+    background-size: contain;
+}
+
+.personajes{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    padding-top: 1rem 0rem;
+}
+
+.personajes h2{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    width: 348px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 12px;
+    margin: 0px 8px;
+    background-color: #333;
+    border-left:6px solid;
+    border-right: 6px solid;
+    border-color: #8cfb5e;
+}
+.contenedor-img {
+    width: 150px;
+    height: 150px;
+}
+
+.contenedor-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #00ff40;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    border: 3px solid #00ff40;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.15)
+}
+
+.nombreCard{
+    color: #00ff40;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    margin: 5px;
+}
+
+.descripcionCard{
+    text-align: center;
+    margin: 18px;
+}
+
+.descripcionCard span{
+    color: #00ff40;
+    font-weight: lighter;
+}
+
+
+/* Estilos del Pie de Página */
+
+.creadores{
+    color: white;
+    background-color:#1a1616;
+    padding: 1.5rem 0rem;
+}
+
+.creadores p{
+    font-size: 16px;
+    margin-bottom: 0.3rem;
+}
+
+.cont_piePagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    min-height: 100px;
+    background-color: black;
+    font-weight: bold;
+    width: 100%;
+    padding: 0.5rem 5rem;
+}
+
+.cont_piePagina img{
+    width: 180px;
+}
+
+.derechos{
+    display: flex;
+    flex-direction: column;
+    color:#8cfb5e;
+}
+
+.cont_piePagina h5{
+    font-size: 17px;
+    font-weight: lighter;
+    color:#8cfb5e;
+    padding: 0.2rem;
+}
+
+.cont_piePagina h6{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(131, 131, 131);
+    padding: 0.2rem;
+}
+
+
+.pie_RedProf{
+    display:flex;
+    justify-content: center;
+}
+
+.pie_RedProf li{
+    display: inline;
+    color: white;
+    font-weight: lighter;
+    list-style: none;
+    margin: 0px 4px;
+}
+
+.pie_RedProf li{
+    list-style: none;
+}
+
+.pie_RedProf li a{
+    font-size: 1.7em;
+    color:white;
+    transition: 0.5s;
+}
+
+.pie_RedProf li a:hover{
+    color: #00ff40;
+}
+
+.autor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1616;
+    padding: 0.5rem 5rem;
+}
+.autor p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 0.5em;
+}
+
+.autor p span{
+    color:#00ff40;
+    font-weight: bold;
+}
+
+/*Media Query para Celular SAMSUNG A51*/
+
+@media screen and (max-width:500px){
+
+/* Estilos del "Encabezado de la página" */
+
+.cont_encabezado{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    min-height: 200px;
+}
+
+.logos_ram{
+    justify-content: center;
+}
+
+.menuRedes{
+    display: inline-block;
+    align-content: center;
+}
+
+.nav-links ul{
+    display:block;
+}
+
+.nav-links li{
+    width: 370px;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+    
+.redesSociales{
+    align-items: center;
+    justify-content: center;
+}
+
+/*Estilos de la Seccion Principal "Rick & Morty"*/
+.cont_portadaRam{
+    min-height: 350px;
+    width: 100%;
+    background-image: url(../assets/imagenes/imagenMain.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Estilos del Pie de Página */
+.autor{
+    justify-content: center;
+}
+
+}
